@@ -1,0 +1,137 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    padding: 92px 49px 92px 51px;
+    max-width: 1440px;
+}
+.header__logo {
+    height: 105px;
+    width: 148px;
+    flex-shrink: 0;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+}
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+.header__link_active {
+    list-style: circle;
+    margin-left: 32px;
+}
+.header__links-list-item {
+    color: #000;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+address {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+}
+.header__address {
+    max-width: 240px;
+    font-size: 18px;
+    text-underline-position: under;
+    font-weight: 400;
+    line-height: 24.3px; 
+}
+.cover {
+    position: relative;
+    max-width: 1440px;
+    height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay {
+    z-index: 1;
+    opacity: 0.6;
+    max-width: 1440px;
+    height: 757px;
+    background-color: #000;
+}
+.cover__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 19px;
+    z-index: 2;
+    color: #FFF;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 50px;
+    
+}
+.aligned-text {
+    display: block;
+    text-align: start;
+    margin-top: 165px;
+    margin-right: 50px;
+    letter-spacing: 30px;
+    line-height: 115%;
+}
+.aligned-text_center {
+    display: block;
+    text-align: center;
+    margin-right: 100px;
+    letter-spacing: 30px;
+    line-height: 100%;
+}
+.aligned-text_right {
+    display: block;
+    text-align: end;
+    margin-right: 50px;
+    letter-spacing: 30px;
+    line-height: 100%;
+}
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+.cover__description {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    margin-top: 143px;
+    margin-left: 422px;
+    font-family: "Raleway";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.cover__description-text {
+    word-spacing: 17px;
+    line-height: 28px;
+}
+.bet-button {
+    margin-left: 83px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    line-height: normal;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    z-index: 2;
+    border: 1px solid #FFF;
+}
