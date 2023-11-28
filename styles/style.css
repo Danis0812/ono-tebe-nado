@@ -57,7 +57,6 @@ address {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-position: top; 
 }
 .overlay {
     position: absolute;
@@ -80,7 +79,6 @@ address {
     font-style: normal;
     text-transform: uppercase;
     margin-left: 50px;
-    
 }
 .aligned-text {
     display: block;
@@ -138,7 +136,6 @@ address {
     background-color: transparent;
     line-height: normal;
     color: #FFF;
-    text-transform: uppercase;
     padding: 12px 32px;
     z-index: 2;
     border: 1px solid #FFF;
